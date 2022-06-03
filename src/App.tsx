@@ -24,7 +24,7 @@ const App: React.FC = () => {
         .catch((e) => console.log("错误:", e));
     };
     fetchData();
-    let itv = setInterval(fetchData, 5000);
+    let itv = setInterval(fetchData, 1000);
     return () => {
       clearInterval(itv);
     };
@@ -75,6 +75,8 @@ const App: React.FC = () => {
           </Row>
         </Content>
         <Footer className="footer">
+          <a target="_blank" href="/detail">🗂️</a>
+          {" | "}
           <a
             href="https://github.com/krwu/ServerStatus-web"
             rel="external noopener"
@@ -83,15 +85,13 @@ const App: React.FC = () => {
           </a>{" "}
           for{" "}
           <a
-            href="https://github.com/BotoX/ServerStatus/"
+            href="https://github.com/zdz/ServerStatus-Rust"
             rel="external noopener"
           >
-            ServerStatus
+            ServerStatus-Rust 版
           </a>
-          , made by{" "}
-          <a href="https://www.ofcss.com/" rel="external noopener">
-            Kairee
-          </a>
+          {" | "}
+          <a target="_blank" href="/map">🗺️</a>
         </Footer>
       </Layout>
     </div>

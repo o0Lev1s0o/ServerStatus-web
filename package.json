@@ -11,13 +11,13 @@
   "private": true,
   "homepage": ".",
   "bugs": {
-    "url": "https://github.com/krwu/ServerStatus-web/issues"
+    "url": "https://github.com/mjjrock/ServerStatus-web/issues"
   },
   "license": "WTFPL",
-  "author": "Kairee <kairee@udev.bid> (https://www.ofcss.com/)",
+  "author": "mjjrock <i@mjjrock.com> (https://www.mjjrock.com/)",
   "repository": {
     "type": "git",
-    "url": "https://github.com/krwu/ServerStatus-web.git"
+    "url": "https://github.com/mjjrock/ServerStatus-web.git"
   },
   "dependencies": {
     "@ant-design/icons": "^4.6.4",
