@@ -2,23 +2,23 @@
     "routes": [
         {
             "src": "/report",
-            "dest": "http://pa6.111311.xyz:8080/report"
+            "dest": "http://stat.111311.xyz/report"
         },
         {
             "src": "/json/stats.json",
-            "dest": "http://pa6.111311.xyz:8080/json/stats.json"
+            "dest": "http://stat.111311.xyz/json/stats.json"
         },
         {
             "src": "/detail",
-            "dest": "http://pa6.111311.xyz:8080/detail"
+            "dest": "http://stat.111311.xyz/detail"
         },
         {
             "src": "/map",
-            "dest": "http://pa6.111311.xyz:8080/map"
+            "dest": "http://stat.111311.xyz/map"
         },
         {
             "src": "/i",
-            "dest": "http://pa6.111311.xyz:8080/i"
+            "dest": "http://stat.111311.xyz/i"
         }
     ]
 }
