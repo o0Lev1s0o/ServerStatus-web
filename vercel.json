@@ -1,5 +1,4 @@
-{
-    "routes": [
+{"routes": [
         {
             "src": "/report",
             "dest": "http://stat.111311.xyz/report"
